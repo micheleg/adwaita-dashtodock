@@ -1,0 +1,67 @@
+@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+
+/* Add Dash to Dock Support */
+
+/* Shrink the dash by reducing padding and border radius */
+#dashtodockContainer #dash {
+    padding: 1px 0px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+#dashtodock #dash:rtl {
+    border-radius: 6px 0px 0px 6px;
+}
+
+#dashtodockContainer .app-well-app {
+    transition-duration: 250;
+    background-size: contain;
+}
+
+#dashtodockContainer .app-well-app {
+   padding: 1px 2px;
+}
+
+/* Running and focused application style */
+
+#dashtodockContainer .app-well-app.running > .overview-icon {
+	background-image:none;
+}
+
+#dashtodockContainer .app-well-app.focused > .overview-icon {
+    transition-duration: 250;
+    background-image: url("focused-indicator.svg");
+    background-size: contain;
+}
+
+#dashtodockContainer:ltr .running1 {
+    background-image: url('one.svg');
+}
+
+#dashtodockContainer:rtl .running1 {
+    background-image: url('one_rtl.svg');
+}
+
+#dashtodockContainer:ltr .running2 {
+    background-image: url('two.svg');
+}
+
+#dashtodockContainer:rtl .running2 {
+    background-image: url('two_rtl.svg');
+}
+
+#dashtodockContainer:ltr .running3 {
+   background-image: url('three.svg');
+}
+
+#dashtodockContainer:rtl .running3 {
+    background-image: url('three_rtl.svg');
+}
+
+#dashtodockContainer:ltr .running4 {
+    background-image: url('four.svg');
+}
+
+#dashtodockContainer:rtl .running4 {
+    background-image: url('four_rtl.svg');
+}
+

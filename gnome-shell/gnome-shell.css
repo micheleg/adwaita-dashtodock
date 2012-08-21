@@ -29,8 +29,11 @@
 
 #dashtodockContainer .app-well-app.focused > .overview-icon {
     transition-duration: 250;
-    background-image: url("focused-indicator.svg");
-    background-size: contain;
+    background-gradient-start: rgba(255, 255, 255, .05);
+    background-gradient-end: rgba(255, 255, 255, .15);
+    background-gradient-direction: vertical;
+    border-radius: 4px;
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 1);
 }
 
 #dashtodockContainer:ltr .running1 {

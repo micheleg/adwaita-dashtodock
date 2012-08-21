@@ -1,5 +1,5 @@
 BASE_MODULES = theme.json gnome-shell.css 
-EXTRA_MODULES = focused-indicator.svg four_rtl.svg four.svg one_rtl.svg one.svg three_rtl.svg three.svg two_rtl.svg two.svg
+EXTRA_MODULES = four_rtl.svg four.svg one_rtl.svg one.svg three_rtl.svg three.svg two_rtl.svg two.svg
 INSTALLBASE = ~/.themes/
 INSTALLNAME = adwaita-dashtodock
 

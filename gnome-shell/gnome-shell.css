@@ -21,6 +21,12 @@
    padding: 1px 2px;
 }
 
+/* Dash height extended to the whole available vertical space */
+#dashtodockContainer.extended #dash {
+    border:0;
+    border-radius: 0;
+}
+
 /* Running and focused application style */
 
 #dashtodockContainer .app-well-app.running > .overview-icon {

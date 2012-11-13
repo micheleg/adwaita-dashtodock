@@ -12,12 +12,12 @@
     border-radius: 6px 0px 0px 6px;
 }
 
-#dashtodockContainer .app-well-app {
+#dashtodockContainer .dash-item-container > StButton {
     transition-duration: 250;
     background-size: contain;
 }
 
-#dashtodockContainer .app-well-app {
+#dashtodockContainer .dash-item-container > StButton {
    padding: 1px 2px;
 }
 
